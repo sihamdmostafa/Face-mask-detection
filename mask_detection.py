@@ -124,7 +124,7 @@ def main():
             image = print_face(image, faces[x], masked[x])
         image = update_text(image, masked_counter, len(faces) > 0)
 
-        cv2.imshow("Dami & Jocelyn's Mask Detection", image)
+        cv2.imshow("Mask Detection", image)
 
         if cv2.waitKey(5) & 0xFF == 27:
             break
