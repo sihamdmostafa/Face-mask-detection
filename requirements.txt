@@ -1,4 +1,0 @@
-opencv-python==4.5.2.52
-tensorflow==2.5.0
-numpy==1.19.5
-mediapipe==0.8.4.2
